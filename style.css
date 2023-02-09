@@ -46,6 +46,7 @@ button{
 }
 #selected-amount{
      background-color:rgba(212, 116, 116, 0.747);
+     border: 3px solid red;
      
      
      
@@ -54,6 +55,97 @@ button{
      justify-content: center;
      padding: 40px 30px;
      background-color: aliceblue;
+     font-size: 30px;
      margin: 20px;
-     border-radius: 5px;
+     border: none;
+     border-radius: 7px;
+}
+.other-amount{
+     text-align: center;
+     color: rgba(0, 0, 0, 0.418);
+     border-bottom: 2px solid rgba(0, 0, 0, 0.253);
+     margin: 0px 500px;
+     margin-bottom: 30px;
+     
+
+}
+.donate-btn{
+     text-align: center;
+}
+.donate-plan{
+     text-align: center;
+}
+.plans{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+     
+}
+.food{
+     
+     border-radius: 7px;
+     background-color: rgba(95, 158, 160, 0.568);
+     padding: 100px 40px 0 40px;
+     margin: 20px 20px;
+}
+.shelter{
+     
+     border-radius: 7px;
+     background-color: rgba(184, 129, 154, 0.5);
+     padding: 100px 40px 0 40px;
+     margin: 20px 20px;
+}
+.education{
+     
+     border-radius: 7px;
+     background-color: rgba(223, 209, 150, 0.795);
+     padding: 100px 40px 0 40px;
+     margin: 20px 20px;
+}
+
+
+.contribute{
+     display: flex;
+     justify-content: center;
+     margin-top: 150px;
+     
+}
+.half-width{
+     width: 50%;
+     padding-left: 150px;
+}
+.contribute img{
+     width: 70%;
+     height: 90%;
+     border-radius: 10px;
+}
+.survive{
+     display: flex;
+     justify-content: center;
+     margin-top: 150px;
+}
+.survive img{
+     width: 90%;
+     height: 90%;
+     border-radius: 10px;
+}
+.update{
+     text-align: center;
+     margin-top: 50px;
+}
+.subscribe{
+     background-color:blanchedalmond;
+     display: flex;
+     justify-content: center;
+     margin: 0px 500px;
+     padding: 50px 300px;
+}
+#width{
+     background-color: darkgray;
+     color: rgb(255, 255, 255);
+     border-radius: 5px;  
+   
+}
+.bottom{
+     width: 20%;
 }
